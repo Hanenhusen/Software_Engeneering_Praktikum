@@ -1,0 +1,8 @@
+de/hsd/medien/se/hsdchess/domain/Turm.class
+de/hsd/medien/se/hsdchess/domain/Position.class
+de/hsd/medien/se/hsdchess/HsdChess.class
+de/hsd/medien/se/hsdchess/domain/Farbe.class
+de/hsd/medien/se/hsdchess/domain/Regelverstoss.class
+de/hsd/medien/se/hsdchess/domain/Status.class
+de/hsd/medien/se/hsdchess/domain/Pferd.class
+de/hsd/medien/se/hsdchess/domain/Figur.class

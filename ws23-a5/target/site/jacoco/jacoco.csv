@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+hsdchess,de.hsd.medien.se.hsdchess,HsdChess,121,0,0,0,20,0,2,0,2,0
+hsdchess,de.hsd.medien.se.hsdchess.domain,Position,0,28,0,0,0,7,0,4,0,4
+hsdchess,de.hsd.medien.se.hsdchess.domain,Turm,25,124,7,13,1,20,6,9,0,5
+hsdchess,de.hsd.medien.se.hsdchess.domain,Regelverstoss,0,4,0,0,0,2,0,1,0,1
+hsdchess,de.hsd.medien.se.hsdchess.domain,Farbe,0,15,0,0,0,2,0,1,0,1
+hsdchess,de.hsd.medien.se.hsdchess.domain,Figur,3,29,0,0,1,11,1,5,1,5
+hsdchess,de.hsd.medien.se.hsdchess.domain,Pferd,10,129,6,14,1,27,5,10,0,5
+hsdchess,de.hsd.medien.se.hsdchess.domain,Status,0,13,0,0,0,6,0,3,0,3

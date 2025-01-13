@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="de"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>HsdChess.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">hsdchess</a> &gt; <a href="index.source.html" class="el_package">de.hsd.medien.se.hsdchess</a> &gt; <span class="el_source">HsdChess.java</span></div><h1>HsdChess.java</h1><pre class="source lang-java linenums">package de.hsd.medien.se.hsdchess;
+
+import com.github.lalyos.jfiglet.FigletFont;
+import de.hsd.medien.se.hsdchess.domain.*;
+
+<span class="nc" id="L6">public class HsdChess {</span>
+    public static void main(String[] args) {
+<span class="nc" id="L8">        String willkommensText = &quot;Welcome to HSD-Chess!&quot;;</span>
+        try {
+<span class="nc" id="L10">            willkommensText = FigletFont.convertOneLine(willkommensText);</span>
+<span class="nc" id="L11">        } catch (Exception e) {</span>
+<span class="nc" id="L12">            e.printStackTrace();</span>
+<span class="nc" id="L13">        }</span>
+<span class="nc" id="L14">        System.out.println(willkommensText);</span>
+
+        //Drei Figuren erzeugen
+
+<span class="nc" id="L18">        Turm schwarzeTurm = new Turm(new Position('a', 8), Farbe.SCHWARZ);</span>
+<span class="nc" id="L19">        Turm weiseTurm = new Turm(new Position('h', 1), Farbe.WEISS);</span>
+<span class="nc" id="L20">        Pferd schwarzePferd = new Pferd(new Position('g', 8), Farbe.SCHWARZ);</span>
+<span class="nc" id="L21">        System.out.println(&quot;3 Figuren wurden instanziiert:&quot;);</span>
+<span class="nc" id="L22">        System.out.println(&quot;- &quot; + schwarzeTurm.toString());</span>
+<span class="nc" id="L23">        System.out.println(&quot;- &quot; + weiseTurm.toString());</span>
+<span class="nc" id="L24">        System.out.println(&quot;- &quot; + schwarzePferd.toString());</span>
+
+
+<span class="nc" id="L27">        schwarzePferd.zieheNach(new Position('h',6));</span>
+<span class="nc" id="L28">        weiseTurm.zieheNach(new Position('h',5));</span>
+<span class="nc" id="L29">        System.out.println(&quot;2 Figuren wurden an folgende Positionen bewegt:&quot;);</span>
+<span class="nc" id="L30">        System.out.println(&quot;Weisse Turm -&gt; &quot; + weiseTurm.getPosition());</span>
+<span class="nc" id="L31">        System.out.println(&quot;Schwarzer Pferd -&gt; &quot; + schwarzePferd.getPosition());</span>
+
+
+<span class="nc" id="L34">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

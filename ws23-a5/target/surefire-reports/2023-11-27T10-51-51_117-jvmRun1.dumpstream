@@ -1,0 +1,9 @@
+# Created at 2023-11-27T10:51:51.978
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'mTest.lambda$testTurmMitUngueltigerFarbe$1(TurmTest.java:44)'.
+
+# Created at 2023-11-27T10:51:51.980
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)'.
+
+# Created at 2023-11-27T10:51:51.981
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '	... 72 more'.
+
